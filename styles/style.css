@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #1e212d;
+}
+
+.first {
+  height: 100vh;
+}
+
+.nav-link {
+  color: #faf3e0;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: #b68973;
+  border-radius: 5px;
+}
+
+.carousel-fila {
+  margin: auto;
+}
+
+.carousel-item img {
+  height: 88vh;
+  background-size: cover;
+  width: 100%;
+}
+
+.carousel-item::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background:rgb(51, 42, 42);
+  opacity: 0.6;
+}
+
+.b{
+  margin: auto;
+}
+
+
+.carousel-caption h5 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 110px;
+}
+
+.carousel-caption i {
+  font-size: 18px;
+}
+
+.i {
+  margin-bottom: 30px;
+}
+
+.btn-1 {
+  background: #1e212d;
+  color: white;
+  font-size: 20px;
+  box-shadow: 1px 1px white;
+  margin-bottom: 50px;
+}
+
+.btn-1:hover{
+  background-color: #b68973;
+  color: black;
+}
+
+.title-card{
+  color: #faf3e0;
+  font-size: 22px ;
+  font-weight: 500;
+}
+
+.card img{
+  height: 140px;
+
+}
+.card{
+  border:solid 3px #faf3e0;
+
+}
+
+.second{
+  height: 98vh;
+}
+
