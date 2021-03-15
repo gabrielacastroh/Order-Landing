@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Roboto";
+  font-family: "Arial";
 }
 
 body {
@@ -49,7 +49,7 @@ body {
   opacity: 0.6;
 }
 
-.b{
+.fila_principal{
   margin: auto;
 }
 
@@ -83,8 +83,8 @@ body {
 
 .title-card{
   color: #faf3e0;
-  font-size: 22px ;
-  font-weight: 500;
+  font-size: 18px ;
+  font-weight: 300;
 }
 
 .card img{
@@ -100,3 +100,76 @@ body {
   height: 98vh;
 }
 
+.titulo h2{
+  font-size: 30px;
+}
+
+.c_menu{
+  border: solid 2px yellow;
+  height: 100%;
+  width: 98%;
+  /* background-color: #faf3e095; */
+margin: auto;
+color: white;
+
+}
+
+.columna_menu{
+ /*  outline: solid 2px green; */
+ background-color: #faf3e0a3;
+ border-radius: 10px;
+ padding-left: 20px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ color: black;
+}
+
+.titulo_menu , .-b{
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.a{
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 600;
+
+}
+
+.inf{
+  color: red;
+}
+
+.b{
+  background-color: #f8f8f72c;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+}
+
+.columna_pedido{
+  border: solid 2px blue;
+  width: 57%;
+  border-radius: 10px;
+  color: white;
+ padding-top: 10px;
+  
+}
+
+.-b{
+  color: white;
+  padding-bottom: 10px;
+}
+
+.img_form{
+
+  width: 60px;
+  height: 60px;
+}
+
+
+.x{
+  font-size: 14px;
+}
