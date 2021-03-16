@@ -34,7 +34,7 @@
 				</div>
 				<div class="collapse navbar-collapse justify-content-center">
 					<a href="index.php" class="navbar-brand">
-						<img src="/Parcial_1/img/logo.png" alt="" class="d-inline-block" width="250" height="30">
+						<img src="/Parcial_1/img/logo.png" alt="logo" class="d-inline-block" width="250" height="30">
 					</a>
 				</div>
 				<div class="collapse navbar-collapse justify-content-end">
@@ -101,7 +101,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="/Parcial_1/img/pizza.jpg" class="d-block w-100" alt="...">
+							<img src="/Parcial_1/img/pizza.jpg" class="d-block w-100" alt="imagen_2">
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Bienvenidos a Brasa Loca</h5>
 								<div class="slider-btn">
@@ -117,7 +117,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="/Parcial_1/img/perro.jpg" class="d-block w-100" alt="...">
+							<img src="/Parcial_1/img/perro.jpg" class="d-block w-100" alt="imagen_3">
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Bienvenidos a Brasa Loca</h5>
 								<div class="slider-btn">
@@ -317,7 +317,7 @@
 						<div class="row">
 							<h4 class="text-center titulo_menu -b">Realizar pedido</h4>
 						</div>
-						<form name="formulario" action="procesar.php" method="POST" class="needs-validation" novalidate>
+						<form name="formulario" action="/Parcial_1/pages/procesar.php" method="POST" class="needs-validation" novalidate>
 							<div class="row py-3">
 								<div class="col-4">
 									<label class="form-label" for="validation_nombre">Nombre</label>
@@ -327,87 +327,143 @@
 									<label class="form-label" for="validation_direccion">Dirección</label>
 									<input id="validation_direccion" name="direccion" type="text" class="form-control form-control-sm" placeholder="Dirección" required>
 								</div>
-
 								<div class="col-4">
 									<label class="form-label" for="validation_tel">Teléfono</label>
 									<input id="validation_tel" name="telefono" type="text" class="form-control form-control-sm" placeholder="Teléfono" required>
 								</div>
-
 							</div>
-							<div class="row">
+							<div class="row justify-content-between">
+								<div class="col-4 ">
+									<div class="row ">
+										<h6 class="a  text-center">Hamburguesas</h6>
+									</div>
+									<div class="row text-center justify-content-center">
+										<div class="col-5 ">
+											<img src="/Parcial_1/img/hamburguesa-1.jpg" class="img_form" alt="">
+
+											<label for="validation_hambu_c" class="text-center x">Combo Clásica</label>
+											<input id="validation_hambu_c" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_ham_c[]" required>
+										</div>
+										<div class="col-5 ">
+											<img src="/Parcial_1/img/hamburguesa-2.png" class="img_form" alt="">
+											<label for="validation_hambu_d" class="text-center x">Combo Doble</label>
+											<input id="validation_hambu_d" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_ham_d[]" required>
+										</div>
+									</div>
+								</div>
+								<div class="col-2 ">
+									<div class="row">
+										<h6 class="a text-center ">Perros</h6>
+									</div>
+									<div class="row text-center justify-content-center">
+										<div class="col-10">
+											<img src="/Parcial_1/img/perro-1.png" class="img_form" alt="">
+											<label for="validation_perro" class="text-center x">Combo perro</label><input id="validation_perro" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_perro[]" required>
+										</div>
+									</div>
+								</div>
 								<div class="col-5">
 									<div class="row">
-										<h6 class="a">Hamburguesas</h6>
+										<h6 class="a text-center">Pizzas</h6>
 									</div>
-									<div class="row py-3 text-center ">
-										<div class="col-3 ">
-											<img src="/Parcial_1/img/hamburguesa-1.jpg" class="img_form" alt="">
-											<label for="" class="form-label text-center x">Combo Clásica</label><input id="validation_numd" type="number" min="1" max="30" class="form-control form-control-sm" name="num_day[]" required>
+									<div class="row text-center ">
+										<div class="col-4">
+											<img src="/Parcial_1/img/pizza-1.jpg" class="img_form" alt="">
+											<label for="validation_pizza_j" class="text-center x z">Pizza Jamón</label><input id="validation_pizza_j" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_piz_j[]" required>
 										</div>
-										<div class="col-3 ">
-
-											<img src="/Parcial_1/img/hamburguesa-2.jpg" class="img_form" alt="">
-
-											<label for="" class="form-label text-center x">Combo Doble</label><input id="validation_numd" type="number" min="1" max="30" class="form-control form-control-sm" name="num_day[]" required>
+										<div class="col-4 text-center">
+											<img src="/Parcial_1/img/pizza-2.jpg" class="img_form" alt="">
+											<label for="validation_pizza_h" class="text-center x">Pizza Hawaiana</label>
+											<input id="validation_pizza_h" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_piz_h[]" required>
 										</div>
-
-									</div>
-								</div>
-								<div class="col-2">
-									<div class="row ">
-										<h6 class="a">Perros</h6>
-									</div>
-									<div class="row py-3 text-center ">
-										<div class="col-8">
-
-											<img src="/Parcial_1/img/perro-1.jpg" class="img_form" alt="">
-
-											<label for="" class="form-label text-center x">Combo perro</label><input id="validation_numd" type="number" min="1" max="30" class="form-control form-control-sm" name="num_day[]" required>
+										<div class="col-4 text-center">
+											<img src="/Parcial_1/img/pizza-3.jpg" class="img_form" alt="">
+											<label for="validation_pizza_p" class="text-center x">Pizza Pepperoni</label>
+											<input id="validation_pizza_p" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_piz_p[]" required>
 										</div>
 									</div>
 								</div>
-								<div class="col-4">
-									<div class="row">
-										<h6 class="a">Pizzas</h6>
-									</div>
-					
-								</div>
-
-
-
 							</div>
-
-
-
-
+							<div class="row py-2 justify-content-between">
+								<div class="col-5 ">
+									<div class="row ">
+										<h6 class="a  text-center">Malteadas</h6>
+									</div>
+									<div class="row text-center justify-content-center">
+										<div class="col-4 ">
+											<img src="/Parcial_1/img/malteada_1.jpeg" class="img_form" alt="">
+											<label for="validation_malte_f" class="text-center x">Malteada de Fresa</label>
+											<input id="validation_malte_f" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_malt_f[]" required>
+										</div>
+										<div class="col-4 ">
+											<img src="/Parcial_1/img/malteada_2.jpg" class="img_form" alt="">
+											<label for="validation_malte_c" class="text-center x">Malteada Chocolate</label>
+											<input id="validation_malte_c" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_malt_c[]" required>
+										</div>
+										<div class="col-4 ">
+											<img src="/Parcial_1/img/malteada_3.jpg" class="img_form" alt="">
+											<label for="validation_malte_v" class="text-center x">Malteada Vainilla</label>
+											<input id="validation_malte_v" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_malt_v[]" required>
+										</div>
+									</div>
+								</div>
+								<div class="col-5 ">
+									<div class="row ">
+										<h6 class="a  text-center">Gaseosas</h6>
+									</div>
+									<div class="row text-center justify-content-center">
+										<div class="col-4 ">
+											<img src="/Parcial_1/img/gaseosa_1.jpg" class="img_form" alt="">
+											<label for="validation_ga_cc" class="text-center x z">Coca Cola</label>
+											<input id="validation_ga_cc" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_ga_cc[]" required>
+										</div>
+										<div class="col-4 ">
+											<img src="/Parcial_1/img/gaseosa_2.jpg" class="img_form" alt="">
+											<label for="validation_ga_m" class="text-center x z"> Manzana </label>
+											<input id="validation_ga_m" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_ga_m[]" required>
+										</div>
+										<div class="col-4 ">
+											<img src="/Parcial_1/img/gaseosa_3.jpg" class="img_form" alt="">
+											<label for="validation_ga_s" class="text-center x z">Sprite</label>
+											<input id="validation_ga_s" type="number" value= "0" min="0" max="30" class="form-control form-control-sm" name="num_ga_s[]" required>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row d-flex justify-content-center">
+								<div class="col-auto">
+									<input type="submit" class="btn enviar" value="Enviar"></input>
+								</div>
+							</div>
 						</form>
 					</div>
-
-
 				</div>
-
-
-
 			</div>
-
 	</div>
-
-
-
-
 	</a>
-
-
 	</div>
-
-
-
-
-
-
 	<!-- Option 1: Bootstrap Bundle with Popper -->
 	<script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
 	</script>
+	<!-- Validar campos JS -->
+	<script>
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(function() {
+			'use strict'
+			// Fetch all the forms we want to apply custom Bootstrap validation styles to
+			var forms = document.querySelectorAll('.needs-validation')
+			// Loop over them and prevent submission
+			Array.prototype.slice.call(forms)
+				.forEach(function(form) {
+					form.addEventListener('submit', function(event) {
+						if (!form.checkValidity()) {
+							event.preventDefault()
+							event.stopPropagation()
+						}
+						form.classList.add('was-validated')
+					}, false)
+				})
+		})()
+	</script>
 </body>
-
 </html>

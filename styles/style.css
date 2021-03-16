@@ -89,15 +89,13 @@ body {
 
 .card img{
   height: 140px;
-
 }
 .card{
   border:solid 3px #faf3e0;
-
 }
 
 .second{
-  height: 98vh;
+  height: 100vh;
 }
 
 .titulo h2{
@@ -105,23 +103,19 @@ body {
 }
 
 .c_menu{
-  border: solid 2px yellow;
-  height: 100%;
+  height: 99%;
   width: 98%;
-  /* background-color: #faf3e095; */
 margin: auto;
 color: white;
 
 }
 
 .columna_menu{
- /*  outline: solid 2px green; */
- background-color: #faf3e0a3;
+ background-color: #ffffffa3;
  border-radius: 10px;
  padding-left: 20px;
- padding-bottom: 10px;
- padding-top: 10px;
  color: black;
+ height: 90vh;
 }
 
 .titulo_menu , .-b{
@@ -131,10 +125,9 @@ color: white;
 }
 
 .a{
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 26px;
   font-weight: 600;
-
 }
 
 .inf{
@@ -142,7 +135,7 @@ color: white;
 }
 
 .b{
-  background-color: #f8f8f72c;
+  background-color: #bdbdbd5d;
   color: black;
   border-radius: 10px;
   padding: 5px;
@@ -150,26 +143,79 @@ color: white;
 }
 
 .columna_pedido{
-  border: solid 2px blue;
   width: 57%;
   border-radius: 10px;
   color: white;
- padding-top: 10px;
-  
+  height: 95vh;
 }
 
 .-b{
   color: white;
-  padding-bottom: 10px;
 }
 
 .img_form{
-
-  width: 60px;
-  height: 60px;
+border-radius: 10px;
+  width: 50px;
+  height: 50px;
 }
-
 
 .x{
   font-size: 14px;
+}
+
+.z{
+  padding-bottom: 20px;
+}
+
+.enviar{
+  color: White;
+  background-color: #1e212d;
+padding: 3px 20px;
+border-radius: 7px;
+font-size: 18px;
+border: solid 2px white;
+margin-top: 15px;
+}
+
+.enviar:hover{
+  color: black;
+  background-color: #eabf9f;
+}
+
+.sub-titulo h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cuerpo_pedido {
+  background-color: #ffffff;
+  height: 71vh;
+  border-radius: 10px;
+  padding: 20px;
+ width: 50%;
+}
+.info_pedido {
+  background-color: #ffffff;
+  height: 71vh;
+  border-radius: 10px;
+}
+
+.pedido_label {
+  font-size: 20px;
+}
+
+.title_cat{
+  font-size: 13px;
+ margin-bottom: 12px;
+}
+
+.y{
+  height: 138px;
+  background-color:#ffffff;
+  border-radius: 10px;
+  color: black;
+  border: solid 1px #1e212d;
 }
