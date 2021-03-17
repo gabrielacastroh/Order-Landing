@@ -56,7 +56,7 @@
 			<div class="sub-titulo">
 				<h2>Detalle de pedido</h2>
 			</div>
-			<div class="row py-4 justify-content-evenly">
+			<div class="row py-2 justify-content-evenly">
 				<div class="col-9 cuerpo_pedido">
 					<div class="row mb-3 text-center">
 						<div class="col">
