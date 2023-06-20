@@ -6,8 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- BOOTSTRAP -->
-	<link rel="stylesheet" href="/Parcial_1/styles/bootstrap.min.css">
-	<link rel="stylesheet" href="/Parcial_1/styles/style.css">
+	<link rel="stylesheet" href="./../styles/bootstrap.min.css">
+	<link rel="stylesheet" href="./../styles/style.css">
 	<title>Brasa Loca</title>
 </head>
 
@@ -19,7 +19,7 @@
 				<div class="collapse navbar-collapse">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a href="#" class="nav-link ">Inicio</a>
+							<a href="./../index.php" class="nav-link ">Inicio</a>
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link ">Registrar</a>
@@ -33,8 +33,8 @@
 					</ul>
 				</div>
 				<div class="collapse navbar-collapse justify-content-center">
-					<a href="/Parcial_1/index.php" class="navbar-brand">
-						<img src="/Parcial_1/img/logo.png" alt="" class="d-inline-block" width="250" height="30">
+					<a href="./../index.php" class="navbar-brand">
+						<img src="./../img/logo.png" alt="" class="d-inline-block" width="250" height="30">
 					</a>
 				</div>
 				<div class="collapse navbar-collapse justify-content-end">
@@ -337,26 +337,9 @@
 							?>
 						</div>
 					</div>
-
-
-
 				</div>
-
-
-
 			</div>
-
-
-
 		</div>
-
-
 	</div>
-
-
-
-
-
 </body>
-
 </html>
